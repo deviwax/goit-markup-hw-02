@@ -29,10 +29,12 @@ color: #2E2F42;
 }
 .nav-link :hover,
 .nav-link :focus{
-    color: #4D5AE5;
+    color: #2e2f42;
+    color: #404bbf;
 }
 
 .address{
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -40,7 +42,8 @@ color: #2E2F42;
 }
 .address :hover,
 .address :focus{
-    color: #4D5AE5;
+    color: #404bbf;
+    color: #404bbf;
 }
 .address :active{
     color: #4D5AE5;
@@ -60,11 +63,76 @@ color: inherit;
     background-color: #2E2F42;
 }
 .hero-text{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
-button{
+.button{
+     background-color: #4D5AE5;
+     color: #FFFFFF;
+     font-weight: 500;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button :hover,
+.button :focus{
+    background-color: #404BBF;
 }
 .team-bg{
     background-color: #F4F4FD;
+}
+.section-h{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-text{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+.team{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.team-section{
+    background-color: #FFFFFF;
+}
+.portfolio{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.section-portfolio{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+.portfolio-section{
+    background-color: #FFFFFF;
+}
+.foot{
+    background-color: #2e2f42;
+}
+span{
+    color: #F4F4FD;
+}
+.foot-p{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
 }
