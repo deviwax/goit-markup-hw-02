@@ -26,10 +26,11 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .nav-link :hover,
 .nav-link :focus{
-    color: #2e2f42;
+    color: #404bbf;
     color: #404bbf;
 }
 
@@ -53,11 +54,11 @@ font-weight: 400;
 font-size: 16px;
 line-height: 150%;
 letter-spacing: 0.02em;
-color: inherit;
+color: #2e2f42;
 }
 .contacts-link :hover, 
 .contacts-link :focus{
-    color: #4D5AE5;
+    color: #404bbf;
 }
 .hero-bg{
     background-color: #2E2F42;
@@ -79,6 +80,7 @@ color: inherit;
 }
 .button :hover,
 .button :focus{
+    background-color: #404BBF;
     background-color: #404BBF;
 }
 .team-bg{
@@ -128,11 +130,11 @@ color: inherit;
 .foot{
     background-color: #2e2f42;
 }
-span{
-    color: #F4F4FD;
-}
 .foot-p{
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
+}
+.logo-part-foot{
+    color: #F4F4FD;
 }
